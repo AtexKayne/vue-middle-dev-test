@@ -80,12 +80,12 @@ h3 {
 .cards {
     display: grid;
     background-color: #fff;
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 800px;
     margin: 0 auto;
     padding: 20px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-gap: 20px;
 }
 
@@ -123,6 +123,7 @@ h3 {
 .test-restart {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 500px;
     padding: 20px 40px;
@@ -130,6 +131,16 @@ h3 {
     margin: 0 auto;
     background-color: #fff;
     color: #111;
+}
+
+.test-info__clicks,
+.test-info__timer {
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.test-info__cond {
+    width: 100%;
 }
 
 .btn {
